@@ -1,0 +1,26 @@
+name: scissors_permutations_example
+version: 0.6.7
+dependencies:
+  browser: 0.10.0
+  intl: any
+dev_dependencies:
+  scissors: ^0.6.7
+transformers:
+- $dart2js:
+    sourceMaps: true
+    commandLineOptions:
+    - --deferred-map=build
+- scissors/permutations_transformer:
+    closureCompilerJar: ${HOME}/github/closure-compiler/build/compiler.jar
+    ltrImport: tc_ltr
+    rtlImport: tc_rtl
+    verbose: true
+    stripSourceMaps: true
+    expectedPartCounts:
+        web/main.dart.js: 6
+    # release:
+    #     reoptimizePermutations: true
+
+# Do not use this line in your projects: this is just to use the enclosing
+# version of Scissors:
+dependency_overrides: {scissors: {path: ../..}}

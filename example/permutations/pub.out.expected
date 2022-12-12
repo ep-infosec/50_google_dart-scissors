@@ -1,0 +1,90 @@
+Loading source assets...
+Loading scissors/permutations_transformer transformers...
+Building scissors_permutations_example...
+[Info from Dart2JS]:
+Compiling scissors_permutations_example|web/main.dart...
+[Info from Dart2JS]:
+[Info from PartsCheck on scissors_permutations_example|web/main.dart.js]:
+Found 6 part files, as expected.
+[Info from Permutations on scissors_permutations_example|<default>]:
+Deferred map content:
+{
+  "_comment": "This mapping shows which compiled `.js` files are needed for a given deferred library import.",
+  "main.dart": {
+    "name": "<unnamed>",
+    "imports": {
+      "tc_ltr": [
+        "main.dart.js_5.part.js"
+      ],
+      "tc_rtl": [
+        "main.dart.js_4.part.js"
+      ]
+    }
+  },
+  "messages_all.dart": {
+    "name": "scissors.example.permutations.messages_all",
+    "imports": {
+      "messages_ar": [
+        "main.dart.js_6.part.js",
+        "main.dart.js_1.part.js"
+      ],
+      "messages_en": [
+        "main.dart.js_6.part.js",
+        "main.dart.js_2.part.js"
+      ],
+      "messages_fr": [
+        "main.dart.js_6.part.js",
+        "main.dart.js_3.part.js"
+      ]
+    }
+  }
+}
+[Info from Permutations on scissors_permutations_example|<default>]:
+Found entry points {main}, and locales {ar, en, fr} with default locale en_US
+[Info from Permutations on scissors_permutations_example|<default>]:
+Processing scissors_permutations_example|web/main.dart.js
+[Info from Permutations on scissors_permutations_example|<default>]:
+Creating scissors_permutations_example|web/main_ar.js with:
+	scissors_permutations_example|web/main.dart.js
+	scissors_permutations_example|web/main.dart.js_6.part.js (used by: messages_ar, messages_en, messages_fr)
+	scissors_permutations_example|web/main.dart.js_1.part.js (used by: messages_ar)
+	scissors_permutations_example|web/main.dart.js_4.part.js (used by: tc_rtl)
+[Info from Permutations on scissors_permutations_example|<default>]:
+Creating scissors_permutations_example|web/main_en.js with:
+	scissors_permutations_example|web/main.dart.js
+	scissors_permutations_example|web/main.dart.js_6.part.js (used by: messages_ar, messages_en, messages_fr)
+	scissors_permutations_example|web/main.dart.js_2.part.js (used by: messages_en)
+	scissors_permutations_example|web/main.dart.js_5.part.js (used by: tc_ltr)
+[Info from Permutations on scissors_permutations_example|<default>]:
+Creating scissors_permutations_example|web/main_fr.js with:
+	scissors_permutations_example|web/main.dart.js
+	scissors_permutations_example|web/main.dart.js_6.part.js (used by: messages_ar, messages_en, messages_fr)
+	scissors_permutations_example|web/main.dart.js_3.part.js (used by: messages_fr)
+	scissors_permutations_example|web/main.dart.js_5.part.js (used by: tc_ltr)
+[Info from Permutations on scissors_permutations_example|<default>]:
+Creating scissors_permutations_example|web/main_en_US.js with:
+	scissors_permutations_example|web/main.dart.js
+	scissors_permutations_example|web/main.dart.js_5.part.js (used by: tc_ltr)
+[Info from SourcemapStripping on scissors_permutations_example|web/main_ar.js]:
+Stripped sourcemap URL: 'main_ar.js.map'
+[Info from SourcemapStripping on scissors_permutations_example|web/main_en.js]:
+Stripped sourcemap URL: 'main_en.js.map'
+[Info from SourcemapStripping on scissors_permutations_example|web/main_en_US.js]:
+Stripped sourcemap URL: 'main_en_US.js.map'
+[Info from SourcemapStripping on scissors_permutations_example|web/main_fr.js]:
+Stripped sourcemap URL: 'main_fr.js.map'
+[Info from SourcemapStripping on scissors_permutations_example|web/main.dart.js]:
+Stripped sourcemap URL: 'main.dart.js.map'
+[Info from SourcemapStripping on scissors_permutations_example|web/main.dart.js_1.part.js]:
+Stripped sourcemap URL: 'main.dart.js_1.part.js.map'
+[Info from SourcemapStripping on scissors_permutations_example|web/main.dart.js_2.part.js]:
+Stripped sourcemap URL: 'main.dart.js_2.part.js.map'
+[Info from SourcemapStripping on scissors_permutations_example|web/main.dart.js_3.part.js]:
+Stripped sourcemap URL: 'main.dart.js_3.part.js.map'
+[Info from SourcemapStripping on scissors_permutations_example|web/main.dart.js_4.part.js]:
+Stripped sourcemap URL: 'main.dart.js_4.part.js.map'
+[Info from SourcemapStripping on scissors_permutations_example|web/main.dart.js_5.part.js]:
+Stripped sourcemap URL: 'main.dart.js_5.part.js.map'
+[Info from SourcemapStripping on scissors_permutations_example|web/main.dart.js_6.part.js]:
+Stripped sourcemap URL: 'main.dart.js_6.part.js.map'
+Built 247 files to "build".

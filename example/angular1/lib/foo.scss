@@ -1,0 +1,23 @@
+@import 'defs';
+@import 'defs2';
+
+.used-class {
+  float: $foo-alignment;
+  background-image: url("package:scissors_angular1_example/icon2.svg");
+}
+.unused-class {
+  float: $foo-alignment;
+}
+
+absent-element {
+  float: $foo-alignment;
+}
+present-element {
+  float: $foo-alignment;
+  background-image: inline-image('icon.svg');
+}
+.plus-image {
+  background-image: inline-image('plus.png');
+  // background-color: yellow;
+  background-size: 16px 16px;
+}

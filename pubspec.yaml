@@ -1,0 +1,31 @@
+name: scissors
+version: 0.6.8
+description: A CSS minifier / tree-shaker for AngularDart 1.x / Angular2.
+authors:
+- Olivier Chafik <ochafik@google.com>
+homepage: http://github.com/google/dart-scissors
+environment:
+  sdk: ">=2.0.0-dev.55.0"
+dependencies:
+  args: ">=0.12.0 <1.5.0"
+  analyzer: ^0.30.0+2
+  barback: ^0.15.0
+  bazel_worker: ^0.1.1
+  code_transformers: ^0.5.1
+  csslib: ^0.14.0
+  html: ">=0.12.0 <0.14.0"
+  intl: ">=0.8.0 <0.14.0"
+  quiver: ^0.22.0
+  source_maps: ^0.10.0
+  source_span: ^1.4.0
+  path: ^1.3.0
+dev_dependencies:
+  dart_style: ^1.0.0
+  transformer_test: ^0.2.0
+  test: ^0.12.12
+executables:
+  scissors-bidi: bidi_css
+  scissors-clone: smart_clone
+  scissors-inline-images: inline_images
+  scissors-sassc: sassc_with_compass_functions
+  bazel-worker: generic_bazel_worker
